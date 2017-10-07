@@ -16,7 +16,9 @@ class BlogTests (LiveServerTestCase):
 
        def test_user_lands_on_home_page (self) :
               # John hears about a cool new blog and goes to check it out
-              # John notices the blog title 
+              self.browser.get('http://localhost:8000')
+              # John notices the blog title
+              self.assertIn("Mark's blog",self.browser.title)
               # finish the test ...
            
         

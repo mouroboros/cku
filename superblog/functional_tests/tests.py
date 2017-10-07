@@ -13,5 +13,10 @@ class BlogTests (LiveServerTestCase):
             self.browser.quit()
 
        # Insert our user story here
+
+       def test_user_lands_on_home_page (self) :
+              # John hears about a cool new blog and goes to check it out
+              # John notices the blog title 
+              # finish the test ...
            
         
